@@ -16,7 +16,7 @@ import pandas as pd
 # 2. Create the app object
 app = FastAPI()
 
-#Chargement des données 
+# Chargement des données 
 
 df = pd.read_csv('test_sample.csv',sep=';')
 
